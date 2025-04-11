@@ -1,0 +1,106 @@
+
+.navbar {
+    background-color: #1a1a1a; 
+    padding: 15px 30px;
+    text-align: center;
+}
+
+.navbar a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.navbar a:hover {
+    color: #00bcd4; 
+}
+
+
+.landing-container {
+    background-color: #f9f9f9; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 30px;
+    text-align: center;
+}
+
+
+.header {
+    font-family: 'Georgia', serif;
+    color: #333333;
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+
+.product-subtitle {
+    font-size: 18px;
+    color: #999999;
+    margin-bottom: 20px;
+}
+
+.hero-image {
+    max-width: 100%;
+    border-radius: 12px;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.6); 
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 20px;
+}
+
+
+.product-description {
+    font-size: 16px;
+    color: #888888;
+    margin-bottom: 20px;
+    max-width: 600px;
+}
+
+.cta-button {
+    background-color: #28a745; 
+    color: #ffffff;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #218838;
+}
+
+
+.main-footer {
+    background-color: #1a1a1a;
+    padding: 20px 30px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.main-footer a {
+    color: #ffffff;
+    margin: 0 10px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.main-footer a:hover {
+    color: #00bcd4;
+}
