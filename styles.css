@@ -104,3 +104,7 @@
 .main-footer a:hover {
     color: #00bcd4;
 }
+
+.nav-item{
+    display: inline;
+}
